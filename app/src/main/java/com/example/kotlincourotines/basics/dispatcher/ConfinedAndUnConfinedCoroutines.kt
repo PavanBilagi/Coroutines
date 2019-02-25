@@ -6,5 +6,11 @@ fun main() = runBlocking<Unit> {
         println("thread ${Thread.currentThread().name}")
         delay(500)
         println("thread ${Thread.currentThread().name}")
+
+        delay(500)
+        println("thread ${Thread.currentThread().name}")
+
+        delay(500)
+        println("thread ${Thread.currentThread().name}")
     }
 }

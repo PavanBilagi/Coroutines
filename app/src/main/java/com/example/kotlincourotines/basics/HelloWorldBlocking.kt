@@ -12,7 +12,7 @@ import kotlinx.coroutines.runBlocking
     }
 
     println("Hello")
-    delay(2000L) // delay for JVM to keep alive for seconds
+    //delay(2000L) // delay for JVM to keep alive for seconds
 
    /* runBlocking {
         delay(2000L) // delay for JVM to keep alive for seconds
